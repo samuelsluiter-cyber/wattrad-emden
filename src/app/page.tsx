@@ -8,7 +8,7 @@ import { ServicesSection } from '@/components/ServicesSection';
 import { BookingWizard } from '@/components/BookingWizard';
 import { AboutSection } from '@/components/AboutSection';
 import { LeasingSection } from '@/components/LeasingSection';
-import { ReviewsSection } from '@/components/ReviewsSection';
+import { StorefrontSection } from '@/components/StorefrontSection';
 import { FaqSection } from '@/components/FaqSection';
 import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
@@ -52,8 +52,8 @@ export default function Home() {
         {/* 6. Corporate Dienstrad-Leasing (JobRad, BusinessBike etc.) */}
         <LeasingSection onSelectLeasingService={() => scrollToBooking('leasing-inspektion')} />
 
-        {/* 7. Local Customer Testimonials */}
-        <ReviewsSection />
+        {/* 7. Storefront Invitation & Authentic Quote */}
+        <StorefrontSection />
 
         {/* 8. Frequently Asked Questions (Accordion) */}
         <FaqSection />
